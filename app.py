@@ -1,7 +1,7 @@
 '''
-Created on 04-Sep-2019
+Created on 07-07-2020
 
-@author: bkadambi
+@author: agaytanb
 '''
 
 # -*- coding: UTF-8 -*-
@@ -14,8 +14,8 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    return 'Hello, world!'
+    return 'Hello, HACKATHON!'
 
 if __name__ == '__main__':  # Script executed directly?
-    print("Hello, World. Uses S2I to build the application.")
+    print("Hello, M&I World!.")
     app.run(host="0.0.0.0", port=8080, debug=True,use_reloader=True)  # Launch built-in web server and run this Flask webapp
